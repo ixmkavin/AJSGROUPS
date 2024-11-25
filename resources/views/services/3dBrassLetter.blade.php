@@ -26,78 +26,20 @@
 </section>
 
 
+
 <section class="service-text">
         <div class="auto-container">
-
-                <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2 ">
-                        <div class="sec-title">
-                                <h1 class="sub-title mt-5">Flex Printing</h1>
-                                <div class="text">
-                                        <h3></h3>
-                                        <p>  </p>
-                                        <h3></h3>
-                                        <p></p>
-
-                                        <h3></h3>
-                                        <h4></h4>
-                                        <p></p>
-                                        <h4></h4>
-                                        <p></p>
-                                        <h4> </h4>
-                                        <p></p>
-
-                                        <h3></h3>
-                                        <h4></h4>
-                                        <p></p>
-                                        <h4></h4>
-                                        <p></p>
-                                        <h4></h4>
-                                        <p> </p>
-                                        <h4> </h4>
-                                        <p></p>
-                                        <h4></h4>
-                                        <p></p>
-
-                                        <h3> </h3>
-                                        <h4> </h4>
-                                        <p> </p>
-                                        <h4> </h4>
-                                        <p></p>
-                                        <h4></h4>
-                                        <p></p>
-                                        <h4> </h4>
-                                        <p></p>
-
-                                        <h3></h3>
-                                        <h4> </h4>
-                                        <p></p>
-                                        <h4></h4>
-                                        <p></p>
-                                        <h4> </h4>
-                                        <p></p>
-                                        <h4> </h4>
-                                        <p></p>
-
-                                        <h3></h3>
-                                        <h4> </h4>
-                                        <p></h4>
-                                        <p></p>
-                                        <h4> </h4>
-                                        <p></p>
-                                        <h4> </h4>
-                                        <p></p>
-
-                                        <h3></h3>
-                                        <p></p>
-
-                                        <h3></h3>
-                                        <p></p>
-
-
-                                </div>
-                        </div>
+    
+            <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
+                <div class="sec-title">
+                    <div class="text">
+                        <h4 class="sub-title mt-5"></h4>
+                      
+                       
+                    </div>
                 </div>
+            </div>
+    
         </div>
-</section>
-
+    </section>
 @endsection

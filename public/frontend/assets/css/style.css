@@ -16625,7 +16625,16 @@ table.tbl-shopping-cart > tfoot > tr > th {
     display: block;
 }
 
+.service-text h2{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
+.service-text li strong{
+    font-size: 17px;
+    font-weight: bold;
+}
 
 
 img {
