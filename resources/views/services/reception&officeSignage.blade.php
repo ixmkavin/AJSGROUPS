@@ -1,4 +1,4 @@
-@extends('frontend.layout.frontend-master')  insert them into h1,....,h6 and p ( the content should be exact as i provided and no words must be missed)
+@extends('frontend.layout.frontend-master') 
 
 @php
 $baseTitle = 'Professional Reception Office Signage | Services in India';
