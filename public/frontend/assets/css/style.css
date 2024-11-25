@@ -16625,37 +16625,8 @@ table.tbl-shopping-cart > tfoot > tr > th {
     display: block;
 }
 
-.service-text {
-    font-size: 2.5em;
-    color: #000000;
-    margin-bottom: 25px;
-    font-weight: bold;
-    font-family: bauhaus 93;
-}
 
-@media (max-width: 1024px) {
-    .service-text {
-        font-size: 2.2em;
-        margin-bottom: 15px;
-    }
-}
 
-@media (max-width: 768px) {
-    .service-text {
-        font-size: 1.8em;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 576px) {
-    .service-text {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-    }
-}
-.services-details b {
-    font-weight: bolder;
-}
 
 img {
     pointer-events: none;
