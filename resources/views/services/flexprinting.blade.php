@@ -36,7 +36,7 @@
                 <div class="sec-title">
                     <div class="text">
                         <h4 class="sub-title mt-5">Our Flex Printing Makes Your Brand Shine</h4>
-                        <h1></h1>
+                        <h1>Flex printing for a Dynamic Brand Image</h1>
     
                         <p>At AJS, we specialize in delivering high-quality and affordable flex printing services for all your advertising needs. Whether it's for events, promotions, or business displays, our flex prints are designed to last long and look great, ensuring your message stands out and captures attention.</p>
     
