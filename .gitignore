@@ -23,3 +23,7 @@ yarn-error.log
 /.zed
 /eval "$(ssh-agent -s)"
 /eval "$(ssh-agent -s)".pub
+<<<<<<< HEAD
+=======
+
+>>>>>>> b598078e28aba5d158219db9e06d734de11d33cf
