@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Fire Safety Sign Board</h4>
                         <h1>Ensure Safety and Compliance with Fire Safety Signage</h1>
 
                         <p>Fire safety is a critical aspect of any building, whether it’s a corporate office, retail store, healthcare facility, or residential property. Proper fire safety signage is essential for guiding occupants during emergencies, providing crucial information about fire safety procedures, and ensuring compliance with regulations. At AJS, we specialize in providing high-quality fire safety signage that enhances safety and peace of mind. Let's delve into the importance of fire safety signage, its various benefits, types, and how our services can help you achieve a safe and compliant environment.</p>

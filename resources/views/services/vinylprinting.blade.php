@@ -32,7 +32,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                            <h4 class="sub-title mt-5"></h4>
+                            <h4 class="sub-title mt-5">Vinyl Printing </h4>
                             <h1>Transform Your Brand with Premium Vinyl Printing Solutions</h1>
                             <p>At AJS GROUPS, we are committed to making your brand stand out. Our extensive range of vinyl printing options delivers vibrant, durable solutions tailored to your business's needs. Whether you need an eye-catching banner, impactful vehicle wrap, or professional signage, we have the perfect vinyl product to elevate your brand and captivate your audience.</p>
                             

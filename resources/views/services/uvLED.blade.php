@@ -32,7 +32,7 @@
         <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
             <div class="sec-title">
                 <div class="text">
-                
+                    <h4 class="sub-title mt-5">UV LED Printing & Backlit Boards</h4>
                     <h1>UV LED Printing: The Future of Printing</h1>
 
                     <p>In our high-speed digital world, the rapid evolution of UV-driven printing technology is turning heads, with many assuming traditional printing is becoming obsolete, especially with the dominance of social media. However, this view couldn't be further from the truth. Print is everywhere, from books and pamphlets to brochures and labels, playing a crucial role in communication. Even in the digital age, print remains a powerful tool for branding and messaging. Among the significant advancements in the printing industry, UV printing has emerged as a go-to for businesses aiming to stand out. But is UV-LED printing truly the future?</p>
@@ -53,10 +53,10 @@
                     
                     <p>UV printing’s versatility makes it suitable for a variety of applications:</p>
                     <ul>
-                        <li>Paper and Cardboard: Ideal for brochures, flyers, and business cards.</li>
-                        <li>Plastics: Perfect for packaging, labels, and promotional items.</li>
-                        <li>Glass: Great for signage, decorative items, and awards.</li>
-                        <li>Metal: Excellent for industrial applications, including nameplates and custom designs.</li>
+                        <li><strong>Paper and Cardboard:</strong> Ideal for brochures, flyers, and business cards.</li>
+                        <li><strong>Plastics:</strong> Perfect for packaging, labels, and promotional items.</li>
+                        <li><strong>Glass:</strong> Great for signage, decorative items, and awards.</li>
+                        <li><strong>Metal:</strong> Excellent for industrial applications, including nameplates and custom designs.</li>
                     </ul>
                     
                     <p>This adaptability is why UV printing is gaining popularity across various industries. Businesses can use UV printing to create unique products that meet specific needs, making it an invaluable tool in today’s market.</p>
@@ -71,10 +71,11 @@
                     
                     <p>Consider UV digital printing when you require:</p>
                     <ul>
-                        <li>Full-colour, Photographic-Quality Images: UV printing excels at producing high-resolution images with rich colours.</li>
-                        <li>Intricate Artwork with Various Colours and Gradients: Our UV printers handle complex designs with precision across a wide range of surfaces.</li>
-                        <li>Significant Items: Whether you need to print on noteworthy items like notebooks, journals, or gift boxes, UV printing can meet your needs.</li>
+                        <li><strong>Full-colour, Photographic-Quality Images:</strong> UV printing excels at producing high-resolution images with rich colours.</li>
+                        <li><strong>Intricate Artwork with Various Colours and Gradients:</strong> Our UV printers handle complex designs with precision across a wide range of surfaces.</li>
+                        <li><strong>Significant Items:</strong> Whether you need to print on noteworthy items like notebooks, journals, or gift boxes, UV printing can meet your needs.</li>
                     </ul>
+                    
                     
                     <h3>Building Brand Awareness</h3>
                     
@@ -95,11 +96,11 @@
                     <h3>Advantages Over Traditional Printing:</h3>
                     
                     <ul>
-                        <li>Faster Production Times: Instant drying with UV printing means quick turnarounds, crucial in fast-paced industries.</li>
-                        <li>High-Quality Output: The curing process ensures vibrant colours and sharp details.</li>
-                        <li>Versatility: UV printing can be used on a variety of substrates, providing flexibility.</li>
-                        <li>Cost-Effectiveness: Long-term savings on materials and production time can make UV printing more economical.</li>
-                        <li>Reduced Waste: Print on demand minimizes waste, making it a sustainable option.</li>
+                        <li><strong>Faster Production Times:</strong> Instant drying with UV printing means quick turnarounds, crucial in fast-paced industries.</li>
+                        <li><strong>High-Quality Output:</strong> The curing process ensures vibrant colours and sharp details.</li>
+                        <li><strong>Versatility:</strong> UV printing can be used on a variety of substrates, providing flexibility.</li>
+                        <li><strong>Cost-Effectiveness:</strong> Long-term savings on materials and production time can make UV printing more economical.</li>
+                        <li><strong>Reduced Waste:</strong> Print on demand minimizes waste, making it a sustainable option.</li>
                     </ul>
                     
                     <h3>Fast Turnaround Times</h3>
@@ -121,17 +122,16 @@
                     <h3>Benefits of Flatbed UV Printing:</h3>
                     
                     <ul>
-                        <li>Wide Range of Rigid Materials: Direct printing on various materials, both flat and rotary.</li>
-                        <li>Excellent Print Quality: High-level precision for detailed designs and text.</li>
+                        <li><strong>Wide Range of Rigid Materials:</strong> Direct printing on various materials, both flat and rotary.</li>
+                        <li><strong>Excellent Print Quality:</strong> High-level precision for detailed designs and text.</li>
                     </ul>
-                    
                     <h3>Benefits of Roll-to-Roll UV Printing:</h3>
                     
                     <ul>
-                        <li>Flexible Materials: Ideal for banners, signage, and more.</li>
-                        <li>High-Speed Printing: Efficient for large-scale production.</li>
-                        <li>Cost-Effective: Affordable for various budgets.</li>
-                        <li>Versatility: Produces UV DTF stickers (crystal labels).</li>
+                        <li><strong>Flexible Materials:</strong> Ideal for banners, signage, and more.</li>
+                        <li><strong>High-Speed Printing:</strong> Efficient for large-scale production.</li>
+                        <li><strong>Cost-Effective:</strong> Affordable for various budgets.</li>
+                        <li><strong>Versatility:</strong> Produces UV DTF stickers (crystal labels).</li>
                     </ul>
                     
                     <p>By choosing UV printing at AJS Groups, you're opting for a cutting-edge, versatile, and sustainable solution that elevates your brand and meets your unique needs. Let's take your printing to the next level!</p>

@@ -32,7 +32,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Commercial Signage</h4>
                       
                         <h1>Transform Your Business with Eye-Catching Commercial Signage</h1>
 

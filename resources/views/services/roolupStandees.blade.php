@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Roll-Up Banner Stands for Events</h4>
                         <h1>Maximize Your Brand’s Visibility with Rollup Standees</h1>
 
                         <p>In today’s fast-paced world, having versatile and impactful advertising tools is essential for any business. Rollup standees are one of the most effective and flexible marketing solutions available. Whether you're promoting a product, showcasing a service, or enhancing your brand presence at events, rollup standees offer an eye-catching and professional way to get your message across. At AJS, we specialize in creating high-quality rollup standees tailored to your specific needs. Let’s dive into what makes rollup standees a powerful advertising tool and how they can benefit your business.</p>

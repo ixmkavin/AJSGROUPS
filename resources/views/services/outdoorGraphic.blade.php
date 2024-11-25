@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Outdoor Graphics</h4>
                         <h1>Transform Your Business with Captivating Outdoor Graphics</h1>
 
                         <p>In the competitive world of advertising, making a bold statement is essential for attracting attention and standing out from the crowd. Outdoor graphics offer a versatile and impactful solution for enhancing your brand's visibility and creating memorable impressions. From eye-catching billboards and vibrant murals to custom vehicle wraps and engaging sidewalk graphics, outdoor graphics can take your marketing efforts to the next level. At AJS GROUPS, we specialize in creating high-quality outdoor graphics that are tailored to your unique needs. Let's explore the importance of outdoor graphics, their various benefits, types, and how our services can help you elevate your brand's presence.</p>

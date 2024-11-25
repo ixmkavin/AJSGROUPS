@@ -32,7 +32,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Glow sign board design</h4>
                         <h1>Brighten Your Brand with Our Glow Sign Boards</h1>
 
                         <p>At AJS GROUPS, we specialize in creating stunning glow sign boards that are designed to catch the eye and grab attention for events, promotions, and store displays. Our signs ensure that your brand stands out and shines brightly at any time of day or night, making a lasting impression on your audience.</p>

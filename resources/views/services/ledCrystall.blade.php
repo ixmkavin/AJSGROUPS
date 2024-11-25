@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Crystal LED board</h4>
                         <h1>Make Your Message Glow with LED Crystal Signage Boards</h1>
 
 <p>In today's competitive world, creating a lasting impression is essential for every business. If you want your brand to shine, stand out, and be remembered, LED Crystal Lightboards and LED Crystal Signage Boards are the way to go. These modern signage solutions not only enhance the visual appeal of your brand but also ensure that your business is noticed day and night.</p>

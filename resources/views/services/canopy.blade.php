@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Canophy and Standee-1</h4>
 
                         
                         <h1>Elevate Your Event with Canopies and Standees</h1>

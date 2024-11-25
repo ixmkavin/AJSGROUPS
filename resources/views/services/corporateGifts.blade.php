@@ -32,7 +32,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Corporate Gifts</h4>
                         <h1>Elevate Your Business Relationships with Corporate Gifts</h1>
 
                         <p>In the corporate world, maintaining strong relationships with clients, employees, and business partners is essential for success. One of the most effective ways to show appreciation and build lasting connections is through thoughtful corporate gifts. At AJS GROUPS, we specialize in providing high-quality, customized corporate gifts that leave a lasting impression. Let's explore the significance of corporate gifts, the benefits they offer, and how our services can help you choose the perfect gifts for your business needs.</p>

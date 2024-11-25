@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Frosted Glass Vinyl</h4>
                         <h1>Transform Your Space with Frosted Vinyl</h1>
 
                         <p>In a world where first impressions matter, the appearance and functionality of your space play a crucial role. Whether it’s a corporate office, retail store, or even a home, frosted vinyl provides an elegant and practical solution to enhance privacy, style, and branding. At AJS GROUPS, we specialize in delivering high-quality frosted vinyl applications that not only look stunning but also serve a functional purpose. Let’s explore how frosted vinyl can transform your space and why it’s the perfect choice for your needs.</p>

@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Custom Flanges & Lollipop Signage Boards</h4>
                         <h1>Enhance Your Signage with Flanges and Lollipop Signs</h1>
 
                         <p>In the world of signage, visibility and durability are key factors that can significantly impact your brand’s effectiveness. Two popular types of signs that offer these benefits are flanges and lollipop signs. At AJS GROUPS, we specialize in creating high-quality flanges and lollipop signs tailored to your specific needs. These signage solutions are not only eye-catching but also versatile, making them an excellent choice for various applications. Let's explore the advantages of these signs, their different types, and how our services can help elevate your brand's presence.</p>

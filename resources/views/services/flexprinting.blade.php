@@ -36,9 +36,9 @@
                 <div class="sec-title">
                     <div class="text">
                         <h4 class="sub-title mt-5">Our Flex Printing Makes Your Brand Shine</h4>
-                        <h1>At AJS, we specialize in delivering high-quality and affordable flex printing services for all your advertising needs.</h1>
+                        <h1></h1>
     
-                        <p>Whether it's for events, promotions, or business displays, our flex prints are designed to last long and look great, ensuring your message stands out and captures attention.</p>
+                        <p>At AJS, we specialize in delivering high-quality and affordable flex printing services for all your advertising needs. Whether it's for events, promotions, or business displays, our flex prints are designed to last long and look great, ensuring your message stands out and captures attention.</p>
     
                         <h2>What is Flex Printing?</h2>
                         <p>Flex printing uses flexible materials like PVC to produce clear, vibrant images. This method is perfect for both indoor and outdoor advertising, making sure your message stands out in any environment. The flexibility of the material allows for a wide range of applications, making it a versatile choice for many businesses.</p>

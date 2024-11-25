@@ -32,7 +32,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Directional Sign Boards</h4>
                         <h1>Clear Directions Made Simple with Directional Sign Boards</h1>
 
                         <p>At AJS GROUPS in India, we understand the importance of clear navigation in any space, whether it’s an office building, a school, a hospital, or a shopping mall. Our high-quality directional sign boards help everyone find their way easily. In this article, we'll share why directional sign boards are essential, how they can be used in various settings, and why choosing AJS GROUPS is the best decision for your signage needs.</p>

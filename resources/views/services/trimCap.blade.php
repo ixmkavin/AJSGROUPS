@@ -33,7 +33,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Trimcap Letter Boards</h4>
                         <h1>Enhance Your Signage with Durable Trimcap Solutions</h1>
 
                         <p>In the competitive world of business, making your brand stand out is crucial. One of the best ways to achieve this is through high-quality signage that grabs attention and makes a lasting impression. Trimcap, a versatile and durable solution, is essential in the creation of stunning and long-lasting signs. At AJS GROUPS, we specialize in providing top-notch trimcap solutions that can elevate your signage and boost your brand visibility. Let’s explore what trimcap is, its benefits, and how our services can help you achieve the perfect signage for your business.</p>

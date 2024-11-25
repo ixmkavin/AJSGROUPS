@@ -31,7 +31,7 @@
             <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12 order-lg-2">
                 <div class="sec-title">
                     <div class="text">
-                        <h4 class="sub-title mt-5"></h4>
+                        <h4 class="sub-title mt-5">Acrylic Display.jpg</h4>
                         <h1>Enhance Your Space with Elegant Acrylic Displays</h1>
                         <p>At AJS in India, we're thrilled to introduce our stunning acrylic displays that can transform any environment. Whether you need them for a retail store, an office, or even your home, acrylic displays offer a modern, stylish way to showcase products, information, and much more.</p>
                         
