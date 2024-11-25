@@ -52,11 +52,11 @@
     
                         <h2>Our Simple Flex Printing Process</h2>
                         <ol>
-                            <li><strong>Step 1: Free Consultation:</strong> We start with a friendly conversation to understand your needs. Whether you want a banner for a trade show or a poster for an event, we’re here to help. This step ensures we know exactly what you’re looking for and can provide the best solutions.</li>
-                            <li><strong>Step 2: Custom Design:</strong> Our talented designers will work closely with you to create the perfect design. If you have a design already, we’ll ensure it’s optimized for printing. We’ll collaborate with you to make sure your vision comes to life with a stunning design.</li>
-                            <li><strong>Step 3: High-Quality Printing:</strong> Once the design is approved, we use advanced printing technology to bring your ideas to life. Expect vibrant colors and sharp details that will make your prints stand out. We are committed to providing top-quality results every time.</li>
-                            <li><strong>Step 4: Quality Check:</strong> Every print goes through a thorough quality check to ensure it meets our high standards. We strive to make sure you are delighted with your order. Our goal is to ensure you’re thrilled with the final product, as your satisfaction is our top priority.</li>
-                            <li><strong>Step 5: Quick Delivery:</strong> We offer fast and reliable delivery so you can get your prints when you need them. Whether it’s for a major event or a last-minute project, we ensure your prints arrive on time and ready to impress.</li>
+                            <li><strong>Free Consultation:</strong> We start with a friendly conversation to understand your needs. Whether you want a banner for a trade show or a poster for an event, we’re here to help. This step ensures we know exactly what you’re looking for and can provide the best solutions.</li>
+                            <li><strong>Custom Design:</strong> Our talented designers will work closely with you to create the perfect design. If you have a design already, we’ll ensure it’s optimized for printing. We’ll collaborate with you to make sure your vision comes to life with a stunning design.</li>
+                            <li><strong>High-Quality Printing:</strong> Once the design is approved, we use advanced printing technology to bring your ideas to life. Expect vibrant colors and sharp details that will make your prints stand out. We are committed to providing top-quality results every time.</li>
+                            <li><strong>Quality Check:</strong> Every print goes through a thorough quality check to ensure it meets our high standards. We strive to make sure you are delighted with your order. Our goal is to ensure you’re thrilled with the final product, as your satisfaction is our top priority.</li>
+                            <li><strong>Quick Delivery:</strong> We offer fast and reliable delivery so you can get your prints when you need them. Whether it’s for a major event or a last-minute project, we ensure your prints arrive on time and ready to impress.</li>
                         </ol>
     
                         <h2>Where You Can Use Flex Printing</h2>
