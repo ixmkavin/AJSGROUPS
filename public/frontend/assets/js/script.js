@@ -1002,10 +1002,12 @@ var THEMEMASCOT = {};
     if (!sessionStorage.getItem('cacheCleared')) {
         if (confirm("We've made updates to our website! Please clear your browser cache for the best experience.")) {
             sessionStorage.setItem('cacheCleared', 'true'); 
-            window.location.replace(window.location.href + '?cacheBust=' + new Date().getTime());
+            // Reload the page with a cache-busting query string
+            const url = new URL(window.location.href);
+            url.searchParams.set('cacheBust', new Date().getTime());
+            window.location.replace(url.toString());
         }
     }
-    
     
     
     
