@@ -31,31 +31,27 @@
 
 
 
+<section class="marquee-section mt-5">
+    <div class="inner-container">
+        <div class="marquee">
+            <div class="marquee-block">
+                @for ($i = 1; $i <= 65; $i++) <span class="brand-thumb">
+                    <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJSGroups Client  {{ $i }}" title="AJSGroups Client  {{ $i }}" loading="lazy">
 
-    <section class="marquee-section mt-5">
-        <div class="inner-container">
-            <div class="marquee">
-                <div class="marquee-block">
-                    @for ($i = 1; $i <= 65; $i++)
-                        <span class="brand-thumb">
-                            <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}"
-                                alt="AJSGroups Client  {{ $i }}"
-                                title="AJSGroups Client  {{ $i }}">
-                        </span>
+                    </span>
                     @endfor
-                </div>
-                <div class="marquee-block">
-                    @for ($i = 1; $i <= 65; $i++)
-                        <span class="brand-thumb">
-                            <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}"
-                            alt="AJSGroups Client  {{ $i }}"
-                            title="AJSGroups Client  {{ $i }}">
-                        </span>
+            </div>
+            <div class="marquee-block">
+                @for ($i = 1; $i <= 65; $i++) <span class="brand-thumb">
+                    <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJSGroups Client  {{ $i }}" title="AJSGroups Client  {{ $i }}" loading="lazy">
+
+                    </span>
                     @endfor
-                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
     
 
 

@@ -30,29 +30,25 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section>    background-image: url('sprite-sheet.jpg');
 
 
     <section class="marquee-section mt-5">
         <div class="inner-container">
             <div class="marquee">
                 <div class="marquee-block">
-                    @for ($i = 1; $i <= 65; $i++)
-                        <span class="brand-thumb">
-                            <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}"
-                                alt="AJSGroups Client  {{ $i }}"
-                                title="AJSGroups Client  {{ $i }}">
+                    @for ($i = 1; $i <= 65; $i++) <span class="brand-thumb">
+                        <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJSGroups Client  {{ $i }}" title="AJSGroups Client  {{ $i }}" loading="lazy">
+    
                         </span>
-                    @endfor
+                        @endfor
                 </div>
                 <div class="marquee-block">
-                    @for ($i = 1; $i <= 65; $i++)
-                        <span class="brand-thumb">
-                            <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}"
-                            alt="AJSGroups Client  {{ $i }}"
-                            title="AJSGroups Client  {{ $i }}">
+                    @for ($i = 1; $i <= 65; $i++) <span class="brand-thumb">
+                        <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJSGroups Client  {{ $i }}" title="AJSGroups Client  {{ $i }}" loading="lazy">
+    
                         </span>
-                    @endfor
+                        @endfor
                 </div>
             </div>
         </div>

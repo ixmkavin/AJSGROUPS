@@ -16718,6 +16718,7 @@ img {
 
 .marquee-section .brand-thumb {
     margin-right: 40px;
+    background-image: url('sprite-sheet.jpg');
 }
 
 .marquee-section .brand-thumb:last-child {
