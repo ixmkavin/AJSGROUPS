@@ -10,21 +10,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>@yield('title', 'AJS Groups | Business And IT Solution')</title>
+  <title>@yield('title', 'AJS Business and IT Solutions')</title>
   <meta name="description" content="@yield('meta_description', 'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses, events & advertising. Reliable, timely delivery at AJSGroups.')">
   <meta name="keywords" content="@yield('meta_keywords', 'flex printing Company, signage solutions, business branding')">
 
-  <meta property="og:title" content="@yield('og_title', 'AJS Groups | Business And IT Solution')">
+  <meta property="og:title" content="@yield('og_title', 'AJS Business and IT Solutions')">
   <meta property="og:description" content="@yield('og_description', 'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses, events & advertising. Reliable, timely delivery at AJSGroups.')">
   <meta property="og:image" content="@yield('og_image', asset('frontend/assets/images/resource/twittercard.jpg'))">
-  <meta property="og:image:alt" content="AJS Groups | Business And IT Solution ">
+  <meta property="og:image:alt" content="AJS Business and IT Solutions ">
   <meta property="og:url" content="{{ request()->getSchemeAndHttpHost() }}{{ request()->getRequestUri() }}">
   <meta property="og:type" content="@yield('og_type', 'website')">
-  <meta property="og:site_name" content="AJS Groups | Business And IT Solution">
+  <meta property="og:site_name" content="AJS Business and IT Solutions">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@your_twitter_handle">
-  <meta name="twitter:title" content="@yield('twitter_title', 'AJS Groups | Business And IT Solution')">
+  <meta name="twitter:title" content="@yield('twitter_title', 'AJS Business and IT Solutions')">
   <meta name="twitter:description" content="@yield('twitter_description', 'India’s top flex printing, banners & signs provider.')">
   <meta name="twitter:image" content="@yield('twitter_image', asset('frontend/assets/images/resource/twittercard.jpg'))">
 

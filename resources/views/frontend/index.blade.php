@@ -3,7 +3,7 @@
 @php
     $baseTitle = 'AJS Groups: India’s Best Flex Printing | Banners & Signs';
     $baseDescription =
-        'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses & advertising. Reliable, timely delivery at AJSGroups.';
+        'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses & advertising. Reliable, timely delivery at AJS Business and IT Solutions.';
     $baseKeywords = 'flex printing Company';
     // $ogImage = asset('frontend/assets/images/resource/Printing.png');
     // $twitterImage = asset('frontend/assets/images/resource/Printing.png');
@@ -36,14 +36,14 @@
         <div class="marquee">
             <div class="marquee-block">
                 @for ($i = 1; $i <= 65; $i++) <span class="brand-thumb">
-                    <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJSGroups Client  {{ $i }}" title="AJSGroups Client  {{ $i }}" loading="lazy">
+                    <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJS Business and IT Solutions   {{ $i }}" title="AJS Business and IT Solutions   {{ $i }}" loading="lazy">
 
                     </span>
                     @endfor
             </div>
             <div class="marquee-block">
                 @for ($i = 1; $i <= 65; $i++) <span class="brand-thumb">
-                    <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJSGroups Client  {{ $i }}" title="AJSGroups Client  {{ $i }}" loading="lazy">
+                    <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}" alt="AJS Business and IT Solutions   {{ $i }}" title="AJS Business and IT Solutions   {{ $i }}" loading="lazy">
 
                     </span>
                     @endfor
@@ -100,7 +100,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Printing.png') }}"
-                                        alt="AJSGroups-Personalized Services"></figure>
+                                        alt="AJS Business and IT Solutions-Personalized Services"></figure>
                                 <div class="caption">Personalized Services</div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Envelop.webp') }}"
-                                        alt="AJSGroups-Envelop">
+                                        alt="AJS Business and IT Solutions-Envelop">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -147,7 +147,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Visiting Card.webp') }}"
-                                        alt="AJSGroups-Visiting Card">
+                                        alt="AJS Business and IT Solutions-Visiting Card">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -161,7 +161,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Broucher.webp') }}"
-                                        alt="AJSGroups-Broucher">
+                                        alt="AJS Business and IT Solutions-Broucher">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -175,7 +175,7 @@
                         <div class="inner-box">
                             <div class="image-box">
                                 <figure class="image"><img src="{{ asset('frontend/assets/images/resource/Flyer.webp') }}"
-                                        alt="AJSGroups-Flyer">
+                                        alt="AJS Business and IT Solutions-Flyer">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -189,7 +189,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Billbook.webp') }}"
-                                        alt="AJSGroups-Billbook">
+                                        alt="AJS Business and IT Solutions-Billbook">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -203,7 +203,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Certificate.webp') }}"
-                                        alt="AJSGroups-Certificate">
+                                        alt="AJS Business and IT Solutions-Certificate">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -218,7 +218,7 @@
                             <div class="image-box">
                                 <figure class="image"><img
                                         src="{{ asset('frontend/assets/images/resource/Id Card.webp') }}"
-                                        alt="AJSGroups-Id Card">
+                                        alt="AJS Business and IT Solutions-Id Card">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -231,7 +231,7 @@
                     {{-- <div class="project-block">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{ asset('frontend/assets/images/resource/project-2.jpg') }}" alt="AJSGroups">
+                                <figure class="image"><img src="{{ asset('frontend/assets/images/resource/project-2.jpg') }}" alt="AJS Business and IT Solutions">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -249,7 +249,7 @@
                     <div class="project-block">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{ asset('frontend/assets/images/resource/project-3.jpg') }}" alt="AJSGroups">
+                                <figure class="image"><img src="{{ asset('frontend/assets/images/resource/project-3.jpg') }}" alt="AJS Business and IT Solutions">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -265,7 +265,7 @@
                     <div class="project-block">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{ asset('frontend/assets/images/resource/project-2.jpg') }}" alt="AJSGroups">
+                                <figure class="image"><img src="{{ asset('frontend/assets/images/resource/project-2.jpg') }}" alt="AJS Business and IT Solutions">
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -324,7 +324,7 @@
                             <div class="image-column col-xl-5 col-lg-6 col-md-12">
                                 <figure class="image overlay-anim"><img
                                         src="{{ asset('frontend/assets/images/resource/YourTrusted.webp') }}"
-                                        alt="AJSGroups Printing">
+                                        alt="AJS Business and IT Solutions Printing">
                                 </figure>
                             </div>
                         </div>
@@ -357,7 +357,7 @@
                             <div class="image-column col-xl-5 col-lg-6 col-md-12">
                                 <figure class="image overlay-anim"><img
                                         src="{{ asset('frontend/assets/images/resource/Elevating.webp') }}"
-                                        alt="AJSGroups Branding">
+                                        alt="AJS Business and IT Solutions Branding">
                                 </figure>
                             </div>
                         </div>
@@ -391,7 +391,7 @@
                             <div class="image-column col-xl-5 col-lg-6 col-md-12">
                                 <figure class="image overlay-anim"><img
                                         src="{{ asset('frontend/assets/images/resource/Innovative.webp') }}"
-                                        alt="AJSGroups Advertising">
+                                        alt="AJS Business and IT Solutions Advertising">
                                 </figure>
                             </div>
                         </div>
@@ -469,7 +469,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="thumb"><img src=" {{ asset('frontend/assets/images/resource/Men.webp') }}"
-                                    alt="AJSGroups-testimonial"></figure>
+                                    alt="AJS Business and IT Solutions-testimonial"></figure>
                             <span class="icon fa fa-quote-right"></span>
                         </div>
                         <div class="content-box">
@@ -491,7 +491,7 @@
                         <div class="image-box">
                             <figure class="thumb"><img
                                     src=" {{ asset('frontend/assets/images/resource/test-thumb-8.jpg') }}"
-                                    alt="AJSGroups-testimonial"></figure>
+                                    alt="AJS Business and IT Solutions-testimonial"></figure>
                             <span class="icon fa fa-quote-right"></span>
                         </div>
                         <div class="content-box">
@@ -512,7 +512,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="thumb"><img src=" {{ asset('frontend/assets/images/resource/Women.webp') }}"
-                                    alt="AJSGroups-testimonial"></figure>
+                                    alt="AJS Business and IT Solutions-testimonial"></figure>
                             <span class="icon fa fa-quote-right"></span>
                         </div>
                         <div class="content-box">
@@ -534,7 +534,7 @@
                         <div class="image-box">
                             <figure class="thumb"><img
                                     src=" {{ asset('frontend/assets/images/resource/test-thumb-8.jpg') }}"
-                                    alt="AJSGroups-testimonial"></figure>
+                                    alt="AJS Business and IT Solutions-testimonial"></figure>
                             <span class="icon fa fa-quote-right"></span>
                         </div>
                         <div class="content-box">
@@ -555,7 +555,7 @@
                         <div class="image-box">
                             <figure class="thumb"><img
                                     src=" {{ asset('frontend/assets/images/resource/test-thumb-7.jpg') }}"
-                                    alt="AJSGroups-testimonial"></figure>
+                                    alt="AJS Business and IT Solutions-testimonial"></figure>
                             <span class="icon fa fa-quote-right"></span>
                         </div>
                         <div class="content-box">
