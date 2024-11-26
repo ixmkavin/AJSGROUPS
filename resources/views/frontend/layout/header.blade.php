@@ -130,10 +130,11 @@
                         </button>
 
                     </div>
-                    <a href="tel:9944200793" class="info-btn">
+                    <a class="info-btn" href="tel:+919944200793">
                         <i class="icon fa fa-phone"></i>
                         <small>Call Our Team</small><br> +91 9944200793
                     </a>
+                    
                     <a href="{{ url('/contact') }}" class="theme-btn btn-style-one"><span class="btn-title">get
                             solution</span></a>
 
@@ -164,7 +165,7 @@
                     <div class="contact-info-box">
                         <i class="icon fa fa-phone"></i>
                         <span class="title">Call US Now</span>
-                        <a href="tel:+92880098670">+91 9944200793</a>
+                        <a href="tel:+919944200793">+91 9944200793</a>
                     </div>
                 </li>
                 <li>
