@@ -15,32 +15,35 @@
         <div class="outer-box">
             <ul class="social-icon-one">
                 <li>
-                    <a href="https://twitter.com/AJSGroups" target="_blank">
-                      <span class="fab fa-twitter"></span>
+                    <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <span class="sr-only">Stay connected on Twitter</span>
                     </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" target="_blank">
-                      <span class="fab fa-facebook-square"></span>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                        <span class="sr-only">Stay connected on Facebook</span>
                     </a>
-                  </li>
-                  <li>
-                    <a href="https://in.pinterest.com/AJSGroups22/" target="_blank">
-                      <span class="fab fa-pinterest-p"></span>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span class="sr-only">Stay connected on Instagram</span>
                     </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" target="_blank">
-                      <span class="fab fa-instagram"></span>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="sr-only">Stay connected on LinkedIn</span>
                     </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/company/ajsadz23/" target="_blank">
-                      <span class="fab fa-linkedin"></span>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                        <span class="sr-only">Stay connected on YouTube</span>
                     </a>
-                  </li>
-
-
+                </li>
             </ul>
         </div>
     </div>
@@ -186,14 +189,42 @@
                 </li>
             </ul>
             <ul class="social-links">
-                <li><a href="https://twitter.com/AJSGroups"><span class="fab fa-twitter"></span></a>
+                <li>
+                    <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <span class="sr-only">Join us on Twitter</span>
+                    </a>
                 </li>
-                <li><a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL"><span
-                            class="fab fa-facebook-square"></span></a></li>
-
-                <li><a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty"><span
-                            class="fab fa-instagram"></span></a></li>
-                <li><a href="https://www.linkedin.com/company/ajsadz23/"><span class="fab fa-linkedin"></span></a></li>
+                <li>
+                    <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                        <span class="sr-only">Join us on Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://in.pinterest.com/AJSGroups22/" rel="nofollow" target="_blank">
+                        <i class="fab fa-pinterest-p"></i>
+                        <span class="sr-only">Join us on Pinterest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span class="sr-only">Join us on Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="sr-only">Join us on LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                        <span class="sr-only">Join us on YouTube</span>
+                    </a>
+                </li>
 
             </ul>
         </nav>

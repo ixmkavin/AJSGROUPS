@@ -1,8 +1,8 @@
 @extends('frontend.layout.frontend-master')
 
-@section('body')
+@section('body')  
 
-<section class="page-title" style="background-image: url('{{ asset('frontend/assets/images/background/privacy.jpg') }}');">
+<section class="page-title" style="background-image: url('{{ asset('frontend/assets/images/breadcrumb/privacy.jpg') }}');">
     <div class="auto-container">
     <div class="title-outer">
     <h1 class="title">Privacy and Policy</h1>

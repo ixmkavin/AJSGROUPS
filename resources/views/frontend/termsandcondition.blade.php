@@ -2,7 +2,7 @@
 
 @section('body')
 
-<section class="page-title" style="background-image: url('{{ asset('frontend/assets/images/background/terms.jpg') }}');">
+<section class="page-title" style="background-image: url('{{ asset('frontend/assets/images/breadcrumb/terms.jpg') }}');">
     <div class="auto-container">
     <div class="title-outer">
     <h1 class="title">Terms And Conditions</h1>

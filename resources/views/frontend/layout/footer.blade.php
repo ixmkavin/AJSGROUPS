@@ -7,11 +7,12 @@
               data-bs-target="#locationPopup"><i class="bi bi-geo-alt"></i></span>
            <span class="cp-floating-btn cp-floating-form-btn cp" data-bs-toggle="modal" data-bs-target="#formPopup">
             <i class="bi bi-envelope-at"></i></span>
-            <a href="https://wa.me/+917845491330?text=Hi" target="_blank">
-               <span class="cp-floating-btn cp-floating-form-btn cp" >
-                   <i class="bi bi-whatsapp"></i>
-               </span>
-           </a>
+            <a href="https://wa.me/+917845491330?text=Hi" target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp">
+                <span class="cp-floating-btn cp-floating-form-btn cp">
+                    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                </span>
+            </a>
+            
 
         </div>
 
@@ -118,10 +119,10 @@
      <!-- floating area end here  -->
 
 
-<footer class="main-footer">
-
+<footer class="main-footer">        
+  
 <div class="widgets-section">
-<div class="bg-image "style="background-image: url('{{ asset('frontend/assets/images/background/8-red.png') }}');">
+<div class="bg-image "style="background-image: url('{{ asset('frontend/assets/images/icons/8-red.png') }}');">
 </div>
 <div class="container-fluid">
     <div class="row">
@@ -164,13 +165,45 @@
                 <div class="widget-content">
                     <div class="text">
                         <ul class="social-icon-two">
-                            <li><a href="https://twitter.com/AJSGroups"><span class="fab fa-twitter" aria-label="Follow us on Twitter" role="img"></span></a></li>
-                            <li><a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL"><span class="fab fa-facebook-square" aria-label="Follow us on Facebook" role="img"></span></a></li>
-                            <li><a href="https://in.pinterest.com/AJSGroups22/"><span class="fab fa-pinterest-p" aria-label="Follow us on pinterest" role="img"></span></a></li>
-                            <li><a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty"><span class="fab fa-instagram" aria-label="Follow us on instagram" role="img"></span></a></li>
-                            <li><a href="https://www.linkedin.com/company/ajsadz23/"><span class="fab fa-linkedin" aria-label="Follow us on linkedin" role="img"></span></a></li>
-                            <li><a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj"><span class="fab fa-youtube" aria-label="Follow us on youtube" role="img"></span></a></li>
+                            <li>
+                                <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                    <span class="sr-only">Follow us on Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span class="sr-only">Follow us on Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://in.pinterest.com/AJSGroups22/" rel="nofollow" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                    <span class="sr-only">Follow us on Pinterest</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    <span class="sr-only">Follow us on Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span class="sr-only">Follow us on LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    <span class="sr-only">Follow us on YouTube</span>
+                                </a>
+                            </li>
                         </ul>
+
+                        
                     </div>
                     <ul class="contact-info mt-4">
                         <li><i class="fa fa-envelope"></i> <a href="mailto:admin@ajsgroups.com"><span

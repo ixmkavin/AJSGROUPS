@@ -40,7 +40,8 @@
                     @for ($i = 1; $i <= 65; $i++)
                         <span class="brand-thumb">
                             <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}"
-                                alt="Client Logo">
+                                alt="AJSGroups Client  {{ $i }}"
+                                title="AJSGroups Client  {{ $i }}">
                         </span>
                     @endfor
                 </div>
@@ -48,7 +49,8 @@
                     @for ($i = 1; $i <= 65; $i++)
                         <span class="brand-thumb">
                             <img src="{{ asset('frontend/assets/images/Logo/clients/Logo-' . sprintf('%02d', $i) . '.jpg') }}"
-                                alt="Client Logo">
+                            alt="AJSGroups Client  {{ $i }}"
+                            title="AJSGroups Client  {{ $i }}">
                         </span>
                     @endfor
                 </div>

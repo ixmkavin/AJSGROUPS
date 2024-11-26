@@ -29,6 +29,7 @@
   <meta name="twitter:image" content="@yield('twitter_image', asset('frontend/assets/images/resource/twittercard.jpg'))">
 
   <link rel="canonical" href="{{ request()->getSchemeAndHttpHost() }}{{ request()->getRequestUri() }}">
+  <link rel="alternate" hreflang="en-in" href="{{ url('/') }}" />
 
   <script type="application/ld+json">
   {
@@ -52,9 +53,17 @@
     <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/responsive.css') }}" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ asset('frontend/assets/images/Logo/AJS_Logo.svg') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('frontend/assets/images/Logo/AJS_Logo.svg') }}" type="image/x-icon">
-    <link rel="apple-touch-icon" href="{{ asset('frontend/assets/images/Logo/AJS_Logo.svg') }}">
+
+    <link rel="shortcut icon" href="{{ asset('frontend/assets/images/Logo/AJS_Logo.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('frontend/assets/images/Logo/AJS_Logo.ico') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{ asset('frontend/assets/images/Logo/apple-touch-icon.png') }}">
+    <link rel="icon" sizes="192x192" href="{{ asset('frontend/assets/images/Logo/manifest-192x192.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('frontend/assets/images/Logo/favicon-96x96.png') }}">
+    <link rel="manifest" href="{{ asset('frontend/assets/images/Logo/web-app-manifest.png') }}">
+    <link rel="icon" type="image/svg+xml" href="frontend/assets/images/Logo/favicon.svg" />
+
+
+
 
 </head>
 
