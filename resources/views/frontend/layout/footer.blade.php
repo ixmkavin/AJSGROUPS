@@ -48,7 +48,7 @@
                            <i class="fa fa-arrow-right" style="color: #D91118;"></i>
                           </span>
                           <span class="cp-floating-text-inner-text"><a target="_blank"
-                                href="https://www.google.com/maps/@1.952577,44.3912535,3z">(+91) 6382167084,9087873793</a></span>
+                            href="tel:+916382167084">(+91) 6382167084,9087873793</a></span>
                        </div>
                     </div>
                  </div>
@@ -178,9 +178,9 @@
                                     data-cfemail="c1afa4a4a5a9a4adb181a2aeacb1a0afb8efa2aeac">admin@ajsgroups.com</span></a><br>
                         </li>
                         <li><i class="icon fa fa-mobile" style="color: #D91118;"></i> <a
-                                href="callto:7845491330">OFFICE : <span>(+91) 7845491330</span></a><br></li>
+                            href="tel:+917845491330">OFFICE : <span>(+91) 7845491330</span></a><br></li>
                         <li><i class="fa fa fa-phone"></i> <a
-                                href="callto:6382167084">  <span>(+91) 6382167084,9087873793</span></a><br></li>
+                            href="tel:+916382167084">  <span>(+91) 6382167084,9087873793</span></a><br></li>
                     </ul>
                 </div>
             </div>
