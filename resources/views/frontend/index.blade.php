@@ -3,7 +3,7 @@
 @php
     $baseTitle = 'AJS Groups: India’s Best Flex Printing | Banners & Signs';
     $baseDescription =
-        'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses & advertising. Reliable, timely delivery at AJS Business and IT Solutions.';
+        'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses & advertising. Reliable, timely delivery at AJSGroups.';
     $baseKeywords = 'flex printing Company';
     // $ogImage = asset('frontend/assets/images/resource/Printing.png');
     // $twitterImage = asset('frontend/assets/images/resource/Printing.png');
