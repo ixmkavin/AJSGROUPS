@@ -30,7 +30,7 @@
                 </ul>
             </div>
         </div>
-    </section>    background-image: url('sprite-sheet.jpg');
+    </section>   
 
 
     <section class="marquee-section mt-5">
