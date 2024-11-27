@@ -14,7 +14,7 @@
     </div>
     </section>
 
-    <section class="about-section-ten">
+    <section class="about-section-ten mt-5">
         <div class="auto-container">
             <h3>Terms and Conditions </h3>
             <p>Welcome to AJS Business and IT Solutions. These Terms and Conditions govern the use of our branding and advertising services. By engaging our brand and advertising services, you acknowledge and agree to these Terms. If you do not agree with any part of these Terms, you should not proceed with using our services. AJS Business and IT Solutions reserves the right to modify these Terms at any time, and continued use of the services constitutes acceptance of any such changes.</p>

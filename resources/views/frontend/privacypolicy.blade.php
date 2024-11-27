@@ -14,7 +14,7 @@
     </div>
     </section>
 
-    <section class="about-section-ten">
+    <section class="about-section-ten mt-5">
         <div class="auto-container">
     <h3>1. Privacy Policy</h3>
     <p>Welcome to AJS Groups and IT Solutions. Your privacy is important to us, and we are committed to protecting your personal data in accordance with applicable privacy laws.</p>
