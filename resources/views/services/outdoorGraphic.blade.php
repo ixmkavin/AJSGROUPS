@@ -20,7 +20,7 @@
 
 <section class="service-section">
         <div class="service-overlay">
-                <img src="{{ asset('frontend/assets/images/resource/Outdoor Graphic.jpg') }}" alt="Outdoor Graphics">
+                <img src="{{ asset('frontend/assets/images/resource/outdoor.jpg') }}" alt="Outdoor Graphics">
         </div>
 
 </section>

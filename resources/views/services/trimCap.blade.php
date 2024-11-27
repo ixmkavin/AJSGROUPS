@@ -18,9 +18,9 @@
 
 @section('body')
 
-<section class="service-section">
+<section class="service-section">  
         <div class="service-overlay">
-                <img src="{{ asset('frontend/assets/images/resource/sample.jpg') }}" alt="Trimcap Letter Boards">
+                <img src="{{ asset('frontend/assets/images/resource/trimcap.jpg') }}" alt="Trimcap Letter Boards">
         </div>
 
 </section>

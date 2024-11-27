@@ -16627,7 +16627,7 @@ table.tbl-shopping-cart > tfoot > tr > th {
 
 .service-text h2{
     font-size: 30px;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
@@ -16636,6 +16636,10 @@ table.tbl-shopping-cart > tfoot > tr > th {
     font-weight: bold;
 }
 
+#ser-img{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 img {
     pointer-events: none;
@@ -16723,4 +16727,9 @@ img {
 
 .marquee-section .brand-thumb:last-child {
     margin-right: 0;
+}
+
+.service-image{
+    position: relative;
+   margin-top: 35px;
 }
