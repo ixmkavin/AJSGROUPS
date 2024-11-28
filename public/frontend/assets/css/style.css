@@ -540,7 +540,7 @@ li {
 .scroll-to-top {
     position: fixed;
     right: 15px;
-    bottom: 20px;
+    bottom: 40px;
     width: 40px;
     font-size: 16px;
     line-height: 40px;
@@ -691,21 +691,38 @@ li {
     margin-left: 0;
 }
 
-.social-icon-one li a {
-    position: relative;
-    display: block;
-    line-height: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 14px;
-    color: var(--theme-color1);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+.social-icon-one li a i {
+    margin-top: 5px;
+    color: inherit; 
+    font-size: 20px; 
+    transition: color 300ms ease;
 }
 
-.social-icon-one li a:hover {
-    color: var(--theme-color2);
+.social-icon-one li a:hover i {
+    color: inherit; 
 }
+
+
+.social-icon-one li a[href*="x.com"] i {
+    color: #1DA1F2;
+}
+
+.social-icon-one li a[href*="facebook.com"] i {
+    color: #1877F2; 
+}
+
+.social-icon-one li a[href*="instagram.com"] i {
+    color: #C13584;
+}
+
+.social-icon-one li a[href*="linkedin.com"] i {
+    color: #0077B5; 
+}
+
+.social-icon-one li a[href*="youtube.com"] i {
+    color: #FF0000;
+}
+
 
 .social-icon-two {
     position: relative;
@@ -734,18 +751,43 @@ li {
     width: 40px;
     border-radius: 50%;
     text-align: center;
-    font-size: 14px;
-    color: #fff;
-    border-radius: 50%;
-    background-color: #2c2e33;
+    font-size: 20px; /* Adjust icon size */
+    color: #fff; /* Default icon color */
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
 }
 
-.social-icon-two li a:hover {
-    color: var(--theme-color1);
-    background-color: var(--bg-theme-color2);
+/* Twitter */
+.social-icon-two li a:hover,
+.social-icon-two li a.twitter {
+    background-color: #1DA1F2;
 }
+
+/* Facebook */
+.social-icon-two li a.facebook {
+    background-color: #4267B2;
+}
+
+/* Pinterest */
+.social-icon-two li a.pinterest {
+    background-color: #E60023;
+}
+
+/* Instagram */
+.social-icon-two li a.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497, #fd5949, #d6249f, #285AEB);
+}
+
+/* LinkedIn */
+.social-icon-two li a.linkedin {
+    background-color: #0077B5;
+}
+
+/* YouTube */
+.social-icon-two li a.youtube {
+    background-color: #FF0000;
+}
+
 
 .social-icon-three {
     position: relative;
@@ -2853,7 +2895,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .mobile-menu .social-links {
-    position: fixed;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2866,7 +2908,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     background: var(--bg-theme-color1);
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
- 
+    margin-top: auto;
 }
 
 .mobile-menu .social-links li {
@@ -16196,80 +16238,74 @@ img {
         left: 0;
         right: 0;
         display: flex;
-        justify-content: center;
-        background-color: #fff; /* Optional: Background color for the bar */
-        padding: 10px 0;
+        justify-content: space-between; 
+        background-color: #fff; 
+        padding: 10px 20px; 
         z-index: 9999;
-        border-top: 1px solid #ddd; /* Optional: Add a border for separation */
-        animation: slideInUp 1s ease-out; /* Entrance animation */
+        border-top: 1px solid #ddd; 
+        animation: slideInUp 1s ease-out; 
     }
 
     #footer-social-links li {
-        margin: 0 10px;
-        position: relative;
+        flex: 1;
         display: flex;
+        justify-content: center;
         align-items: center;
-        animation: bounceIn 0.8s ease-in-out; /* Bounce effect */
+        position: relative;
+        animation: bounceIn 0.8s ease-in-out; 
     }
 
-    /* Vertical line between icons */
-    #footer-social-links li:not(:first-child)::before {
+    #footer-social-links li:not(:last-child)::after {
         content: "";
         position: absolute;
-        left: -5px;
-        top: 0;
-        bottom: 0;
+        right: 0;
+        height: 60%; 
         width: 1px;
-        background-color: #ddd; /* Line color */
-        height: 60%; /* Adjust height to make the line smaller */
-        margin: auto;
+        background-color: #ddd; 
     }
 
     #footer-social-links a {
-        font-size: 24px; /* Icon size */
+        font-size: 24px; 
         text-decoration: none;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+        transition: transform 0.3s ease, color 0.3s ease; 
     }
 
-    /* Icon hover effect */
     #footer-social-links a:hover {
-        transform: scale(1.3); /* Zoom in effect */
-        color: #ff9800; /* Optional: Change color on hover */
+        transform: scale(1.3); 
+        opacity: 0.8; 
     }
-
-    /* Individual brand colors */
+   
     #footer-social-links a .fa-twitter {
-        color: #1DA1F2; /* Twitter blue */
+        color: #1DA1F2; 
     }
 
     #footer-social-links a .fa-facebook-square {
-        color: #1877F2; /* Facebook blue */
+        color: #1877F2; 
     }
 
     #footer-social-links a .fa-pinterest-p {
-        color: #E60023; /* Pinterest red */
+        color: #E60023; 
     }
 
     #footer-social-links a .fa-instagram {
-        color: #C13584; /* Instagram gradient main color */
+        color: #C13584; 
     }
 
     #footer-social-links a .fa-linkedin {
-        color: #0077B5; /* LinkedIn blue */
+        color: #0077B5; 
     }
 
     #footer-social-links a .fa-youtube {
-        color: #FF0000; /* YouTube red */
+        color: #FF0000;
     }
 
     #footer-social-links a .fa-whatsapp {
-        color: #25D366; /* WhatsApp green */
+        color: #25D366; 
     }
 
-    /* Keyframes for animations */
     @keyframes slideInUp {
         from {
             transform: translateY(100%);
@@ -16296,12 +16332,12 @@ img {
     }
 
     body {
-        padding-bottom: 45px; /* Adjust this to match the height of #footer-social-links */
+        padding-bottom: 45px; 
     }
 }
 
 @media (min-width: 769px) {
     #footer-social-links {
-        display: none; /* Hide the footer-social-links on larger screens */
+        display: none; 
     }
 }

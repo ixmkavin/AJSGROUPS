@@ -13,38 +13,38 @@
 
         </div>
         <div class="outer-box">
-            <ul class="social-icon-one">
-                <li>
-                    <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                        <span class="sr-only">Stay connected on Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                        <span class="sr-only">Stay connected on Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                        <span class="sr-only">Stay connected on Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        <span class="sr-only">Stay connected on LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
-                        <i class="fab fa-youtube"></i>
-                        <span class="sr-only">Stay connected on YouTube</span>
-                    </a>
-                </li>
-            </ul>
+                <ul class="social-icon-one">
+                    <li>
+                        <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            <span class="sr-only">Stay connected on Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                            <span class="sr-only">Stay connected on Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span class="sr-only">Stay connected on Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="sr-only">Stay connected on LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                            <span class="sr-only">Stay connected on YouTube</span>
+                        </a>
+                    </li>
+                </ul>
         </div>
     </div>
 
@@ -56,8 +56,7 @@
             <div class="logo-box">
                 <div class="logo">
                     <a href="{{ route('/') }}">
-                        <img src="{{ asset('frontend/assets/images/Logo/AJSGroups.png') }}" alt="AJS Groups Logo"
-                            title="AJS Business And IT Solutions">
+                        <img src="{{ asset('frontend/assets/images/Logo/AJSGroups.png') }}" alt="AJS Groups Logo" title="AJS Business And IT Solutions">
                     </a>
                 </div>
 
@@ -73,42 +72,40 @@
                         <li class="dropdown {{ Request::is('services/*') ? 'current' : '' }}">
                             <a>Services</a>
                             @php
-                                $services = [
-                                    'Flex Printing' => 'Flex Printing',
-                                    'LED Signage' => 'LED Signage',
-                                    '3D Acrylic Letter Sign Board' => '3D Acrylic Letter Sign Board',
-                                    'Hoarding Unipole' => 'Hoarding Unipole',
-                                    'Glow Sign Board' => 'Glow Sign Board',
-                                    'Vinyl Printing' => 'Vinyl Printing',
-                                    'LED Crystal Signage' => 'LED Crystal Signage',
-                                    'ACP CLADDING WORK' => 'ACP CLADDING WORK',
-                                    '3D Steel Letter Sign Board' => '3D Steel Letter Sign Board',
-                                    'Acrylic Display' => 'Acrylic Display',
-                                    'Directional Sign Board' => 'Directional Sign Board',
-                                    'Canopy And Standee' => 'Canopy And Standee',
-                                    'Reception And Office Signage' => 'Reception And Office Signage',
-                                    'UV LED Printing' => 'UV LED Printing',
-                                    '3D Brass Letter Sign Board' => '3D Brass Letter Sign Board',
-                                    'ACP SignBoard' => 'ACP SignBoard',
-                                    'Frosted Vinyl' => 'Frosted Vinyl',
-                                    'Corporate Gifts' => 'Corporate Gifts',
-                                    'Rollup Standees' => 'Rollup Standees',
-                                    'Commercial Signage' => 'Commercial Signage',
-                                    'Flanges And Lollipop' => 'Flanges|lollipop',
-                                    'Indoor Graphics' => 'Indoor Graphics',
-                                    'Outdoor Graphic' => 'Outdoor Graphic',
-                                    'TrimCap' => 'TrimCap',
-                                    'Fire Safety Signage' => 'Fire Safety Signage',
-                                ];
+                            $services = [
+                            'Flex Printing' => 'Flex Printing',
+                            'LED Signage' => 'LED Signage',
+                            '3D Acrylic Letter Sign Board' => '3D Acrylic Letter Sign Board',
+                            'Hoarding Unipole' => 'Hoarding Unipole',
+                            'Glow Sign Board' => 'Glow Sign Board',
+                            'Vinyl Printing' => 'Vinyl Printing',
+                            'LED Crystal Signage' => 'LED Crystal Signage',
+                            'ACP CLADDING WORK' => 'ACP CLADDING WORK',
+                            '3D Steel Letter Sign Board' => '3D Steel Letter Sign Board',
+                            'Acrylic Display' => 'Acrylic Display',
+                            'Directional Sign Board' => 'Directional Sign Board',
+                            'Canopy And Standee' => 'Canopy And Standee',
+                            'Reception And Office Signage' => 'Reception And Office Signage',
+                            'UV LED Printing' => 'UV LED Printing',
+                            '3D Brass Letter Sign Board' => '3D Brass Letter Sign Board',
+                            'ACP SignBoard' => 'ACP SignBoard',
+                            'Frosted Vinyl' => 'Frosted Vinyl',
+                            'Corporate Gifts' => 'Corporate Gifts',
+                            'Rollup Standees' => 'Rollup Standees',
+                            'Commercial Signage' => 'Commercial Signage',
+                            'Flanges And Lollipop' => 'Flanges|lollipop',
+                            'Indoor Graphics' => 'Indoor Graphics',
+                            'Outdoor Graphic' => 'Outdoor Graphic',
+                            'TrimCap' => 'TrimCap',
+                            'Fire Safety Signage' => 'Fire Safety Signage',
+                            ];
                             @endphp
 
                             <ul>
                                 @foreach ($services as $key => $value)
-                                    <li
-                                        class="{{ request()->is('services/' . str_replace(' ', '-', $key)) ? 'current' : '' }}">
-                                        <a
-                                            href="{{ route('services.show', str_replace(' ', '-', $key)) }}">{{ $value }}</a>
-                                    </li>
+                                <li class="{{ request()->is('services/' . str_replace(' ', '-', $key)) ? 'current' : '' }}">
+                                    <a href="{{ route('services.show', str_replace(' ', '-', $key)) }}">{{ $value }}</a>
+                                </li>
                                 @endforeach
                             </ul>
 
@@ -116,14 +113,12 @@
                         </li>
 
 
-                        {{-- <li class="{{ Request::is('portfolio') ? 'current' : '' }}"><a
-                                href="{{ url('/portfolio') }}">Gallery</a></li>
+                        {{-- <li class="{{ Request::is('portfolio') ? 'current' : '' }}"><a href="{{ url('/portfolio') }}">Gallery</a></li>
                         <li class="{{ Request::is('blog') ? 'current' : '' }}"><a href="{{ url('/blog') }}">Blog</a>
-                        </li>  --}}
+                        </li> --}}
 
-                        <li class="{{ Request::is('contact') ? 'current' : '' }}"><a
-                                href="{{ url('/contact') }}">Contact</a></li>
-                                
+                        <li class="{{ Request::is('contact') ? 'current' : '' }}"><a href="{{ url('/contact') }}">Contact</a></li>
+
                     </ul>
                 </nav>
 
@@ -138,7 +133,7 @@
                         <i class="icon fa fa-phone"></i>
                         <small>Call Our Team</small><br> +91 9944200793
                     </a>
-                    
+
                     <a href="{{ url('/contact') }}" class="theme-btn btn-style-one"><span class="btn-title">get
                             solution</span></a>
 
@@ -153,76 +148,13 @@
         <div class="menu-backdrop"></div>
 
         <nav class="menu-box">
-       
+
             <ul class="navigation clearfix">
 
             </ul>
-            {{-- <ul class="contact-list-one">
-                <li>
 
-                    <div class="contact-info-box">
-                        <i class="icon fa fa-phone"></i>
-                        <span class="title">Call US Now</span>
-                        <a href="tel:+919944200793">+91 9944200793</a>
-                    </div>
-                </li>
-                <li>
 
-                    <div class="contact-info-box">
-                        <span class="icon fa fa-envelope"></span>
-                        <span class="title">Reach Out via Email</span>
-                        <a href="mailto:admin@ajsgroups.com">admin@ajsgroups.com</a>
-                    </div>
-                </li>
-                <li>
 
-                    <div class="contact-info-box">
-                        <span class="icon fa fa-clock"></span>
-                        <span class="title">Email US</span>
-                        Mon - Sat 10:00 AM - 8:00 PM, Sunday - CLOSED
-                    </div>
-                </li>
-            </ul> --}}
-            <ul class="social-links">
-                <li>
-                    <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                        <span class="sr-only">Join us on Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                        <span class="sr-only">Join us on Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://in.pinterest.com/AJSGroups22/" rel="nofollow" target="_blank">
-                        <i class="fab fa-pinterest-p"></i>
-                        <span class="sr-only">Join us on Pinterest</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                        <span class="sr-only">Join us on Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        <span class="sr-only">Join us on LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
-                        <i class="fab fa-youtube"></i>
-                        <span class="sr-only">Join us on YouTube</span>
-                    </a>
-                </li>
-
-            </ul>
-       
         </nav>
     </div>
 
@@ -245,9 +177,7 @@
 
             <div class="main-box">
                 <div class="logo-box">
-                    <div class="logo"><a href="{{ route('/') }}"><img
-                                src="{{ asset('frontend/assets/images/Logo/AJSGroups.png') }}" alt="AJS Groups"
-                                title="AJS Groups"></a>
+                    <div class="logo"><a href="{{ route('/') }}"><img src="{{ asset('frontend/assets/images/Logo/AJSGroups.png') }}" alt="AJS Groups" title="AJS Groups"></a>
                     </div>
                 </div>
 
