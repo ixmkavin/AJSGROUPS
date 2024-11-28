@@ -2,7 +2,7 @@
 
 @php
 $baseTitle = 'Professional Reception Office Signage | Services in India';
-$baseDescription = 'AJS Groups offers top-quality Reception Office Signage that enhances your office with stylish, durable, and easy-to-install professional signs. ';
+$baseDescription = 'AJS Business and IT Solutions offers top-quality Reception Office Signage that enhances your office with stylish, durable, and easy-to-install professional signs. ';
 $baseKeywords = ' office reception signage';
 @endphp
 

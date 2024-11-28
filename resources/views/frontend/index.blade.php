@@ -1,9 +1,9 @@
 @extends('frontend.layout.frontend-master')
 
 @php
-    $baseTitle = 'AJS Groups: India’s Best Flex Printing | Banners & Signs';
+    $baseTitle = 'AJS Business and IT Solutions: India’s Best Flex Printing | Banners & Signs';
     $baseDescription =
-        'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses & advertising. Reliable, timely delivery at AJSGroups.';
+        'India’s top flex printing, banners & signs provider. High-quality visual solutions for businesses & advertising. Reliable, timely delivery at AJS.';
     $baseKeywords = 'flex printing Company';
     // $ogImage = asset('frontend/assets/images/resource/Printing.png');
     // $twitterImage = asset('frontend/assets/images/resource/Printing.png');

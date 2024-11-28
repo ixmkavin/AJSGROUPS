@@ -2,7 +2,7 @@
 
 @php
     $baseTitle = 'Vinyl Printing | AJS  Large Format Printing Services in India';
-    $baseDescription = ' AJS Groups delivers high-quality eco-vinyl printing while leading as India’s first environmentally friendly printing service';
+    $baseDescription = ' AJS Business and IT Solutions delivers high-quality eco-vinyl printing while leading as India’s first environmentally friendly printing service';
     $baseKeywords = ' vinyl printing board ';
 @endphp
 

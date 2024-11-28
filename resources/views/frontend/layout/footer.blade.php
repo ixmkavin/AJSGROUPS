@@ -227,7 +227,7 @@
     <div class="inner-container">
         <div class="copyright-text">
             <a href="{{ route('/') }}">
-                <span style="color: #D91118">AJS GROUPS AND IT SOLUTIONS</span>
+                <span style="color: #D91118">AJS Business AND IT SOLUTIONS</span>
             </a>
             &copy; Copyright reserved &middot;
             <a href="{{ route('privacypolicy') }}">Privacy Policy</a> &middot;

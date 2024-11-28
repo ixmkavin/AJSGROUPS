@@ -762,62 +762,7 @@ var THEMEMASCOT = {};
             $(this).css("left", $(this).data("tm-left"));
         });
     }
-    function show_secondary_price(pricing_tables) {
-        pricing_tables.addClass("show-secondary-price");
-        var pricing_btn = pricing_tables.find(".btn");
-        var secondary_btn_url = pricing_btn.data("secondary-link");
-        pricing_btn.attr("href", secondary_btn_url);
-    }
-    function hide_secondary_price(pricing_tables) {
-        pricing_tables.removeClass("show-secondary-price");
-        var pricing_btn = pricing_tables.find(".btn");
-        var normal_btn_url = pricing_btn.data("normal-link");
-        pricing_btn.attr("href", normal_btn_url);
-    }
-    var TM_Pricing_Switcher_Smart = function ($scope) {
-        var pricing_smart_switcher = $(
-            ".tm-pricing-smart-switcher, .tm-pricing-plan-switcher"
-        );
-        if (pricing_smart_switcher.length > 0) {
-            pricing_smart_switcher
-                .find("[data-pricing-trigger]")
-                .on("click", function (e) {
-                    var $self = $(e.target);
-                    $self.toggleClass("secondary-active");
-                    var pricing_tables = $self
-                        .parents("section")
-                        .find(".tm-pricing-table");
-                    if ($self.hasClass("secondary-active")) {
-                        show_secondary_price(pricing_tables);
-                    } else {
-                        hide_secondary_price(pricing_tables);
-                    }
-                });
-        }
-    };
-    var TM_Pricing_Switcher_Btn = function ($scope) {
-        var pricing_btn_switcher = $(".tm-pricing-smart-switcher-button");
-        if (pricing_btn_switcher.length > 0) {
-            pricing_btn_switcher
-                .find("[data-pricing-trigger]")
-                .on("click", function (e) {
-                    var target_id = $(this).data("show");
-                    var $self = $(e.target);
-                    pricing_btn_switcher
-                        .find("[data-pricing-trigger]")
-                        .removeClass("active");
-                    $(this).addClass("active");
-                    var pricing_tables = $self
-                        .parents("section")
-                        .find(".tm-pricing-table");
-                    if (target_id == "year") {
-                        show_secondary_price(pricing_tables);
-                    } else {
-                        hide_secondary_price(pricing_tables);
-                    }
-                });
-        }
-    };
+
     var $onepage_nav = $(".onepage-nav");
     var $sections = $("section");
     var $window = $(window);
