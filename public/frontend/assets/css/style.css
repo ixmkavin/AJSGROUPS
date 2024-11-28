@@ -2805,7 +2805,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     text-transform: capitalize;
 }
 
-.mobile-menu .navigation li:hover > a,
+.mobile-menu .navigation li:hover > a{
+    border: 1px solid rgba(255, 0, 0, 0.5); 
+}
 .mobile-menu .navigation li.current > a {
     background-color: rgba(255, 0, 0, 0.3); 
     color: white; 
