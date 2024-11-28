@@ -69,7 +69,7 @@ var THEMEMASCOT = {};
         $(".mobile-menu .close-btn").on("click", function () {
             $("body").removeClass("mobile-menu-visible");
         });
-        $(".mobile-menu li.dropdown .dropdown-btn").on("click", function () {
+        $(".mobile-menu .navigation li.dropdown").on("click", function () {
             $(this).prev("ul").slideToggle(500);
             $(this).toggleClass("active");
         });
@@ -83,6 +83,7 @@ var THEMEMASCOT = {};
             }
         );
     }
+
     if ($(".search-btn").length) {
         $(".search-btn").on("click", function () {
             $(".main-header").addClass("moblie-search-active");
@@ -435,7 +436,7 @@ var THEMEMASCOT = {};
         $(".accordion-box").on("click", ".acc-btn", function () {
             var outerBox = $(this).parents(".accordion-box");
             var target = $(this).parents(".accordion");
-            
+
             // Check if the clicked button is already active
             if ($(this).hasClass("active")) {
                 // If active, remove the active class and slide up the content
@@ -446,15 +447,18 @@ var THEMEMASCOT = {};
                 // If not active, deactivate other buttons and activate the clicked one
                 $(outerBox).find(".accordion .acc-btn").removeClass("active");
                 $(outerBox).children(".accordion").removeClass("active-block");
-                $(outerBox).find(".accordion").children(".acc-content").slideUp(300);
-                
+                $(outerBox)
+                    .find(".accordion")
+                    .children(".acc-content")
+                    .slideUp(300);
+
                 $(this).addClass("active");
                 target.addClass("active-block");
                 $(this).next(".acc-content").slideDown(300);
             }
         });
     }
-    
+
     if ($(".accordion-box-app").length) {
         $(".accordion-box-app").on("click", ".acc-btn", function () {
             var outerBox = $(this).parents(".accordion-box-app");
@@ -908,53 +912,23 @@ var THEMEMASCOT = {};
         parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
     });
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll(".btn-style-one");
-        const serviceBlocks = document.querySelectorAll(".x-service-block");
-
-        filterButtons.forEach((button) => {
-            button.addEventListener("click", function () {
-                const filter = this.getAttribute("data-filter");
-
-                // Remove 'active' class from all buttons
-                filterButtons.forEach((btn) => btn.classList.remove("active"));
-
-                // Add 'active' class to the clicked button
-                this.classList.add("active");
-
-                // Show/Hide service blocks based on the filter
-                serviceBlocks.forEach((block) => {
-                    const category = block.getAttribute("data-category");
-
-                    if (filter === "all" || category === filter) {
-                        block.style.display = "block"; // Show the block
-                        block.style.opacity = 1; // Make it visible
-                        block.style.transition = "opacity 0.5s ease";
-                    } else {
-                        block.style.display = "none"; // Hide the block
-                    }
-                });
-            });
-        });
-    });
-
     document.addEventListener("contextmenu", (e) => {
         if (e.target.tagName === "IMG") {
             e.preventDefault();
         }
     });
 
-    if (!sessionStorage.getItem('cacheCleared')) {
-        if (confirm("We've made updates to our website! Please clear your browser cache for the best experience.")) {
-            sessionStorage.setItem('cacheCleared', 'true'); 
+    if (!sessionStorage.getItem("cacheCleared")) {
+        if (
+            confirm(
+                "We've made updates to our website! Please clear your browser cache for the best experience."
+            )
+        ) {
+            sessionStorage.setItem("cacheCleared", "true");
             // Reload the page with a cache-busting query string
             const url = new URL(window.location.href);
-            url.searchParams.set('cacheBust', new Date().getTime());
+            url.searchParams.set("cacheBust", new Date().getTime());
             window.location.replace(url.toString());
         }
     }
-    
-    
-    
-    
 })(window.jQuery);

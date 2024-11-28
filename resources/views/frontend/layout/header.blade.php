@@ -65,60 +65,59 @@
             <div class="nav-outer">
                 <nav class="nav main-menu">
                     <ul class="navigation">
-                        <li class="{{ Request::is('/') ? 'current' : '' }}"><a href="{{ url('/') }}">Home</a></li>
-                        <li class="{{ Request::is('about') ? 'current' : '' }}"><a href="{{ url('/about') }}">About
-                                Us</a></li>
+                        <li class="{{ Request::is('/') ? 'current' : '' }}">
+                            <a href="{{ url('/') }}">Home</a>
+                        </li>
+                        <li class="{{ Request::is('about') ? 'current' : '' }}">
+                            <a href="{{ url('/about') }}">About Us</a>
+                        </li>
 
                         <li class="dropdown {{ Request::is('services/*') ? 'current' : '' }}">
                             <a>Services</a>
                             @php
-                            $services = [
-                            'Flex Printing' => 'Flex Printing',
-                            'LED Signage' => 'LED Signage',
-                            '3D Acrylic Letter Sign Board' => '3D Acrylic Letter Sign Board',
-                            'Hoarding Unipole' => 'Hoarding Unipole',
-                            'Glow Sign Board' => 'Glow Sign Board',
-                            'Vinyl Printing' => 'Vinyl Printing',
-                            'LED Crystal Signage' => 'LED Crystal Signage',
-                            'ACP CLADDING WORK' => 'ACP CLADDING WORK',
-                            '3D Steel Letter Sign Board' => '3D Steel Letter Sign Board',
-                            'Acrylic Display' => 'Acrylic Display',
-                            'Directional Sign Board' => 'Directional Sign Board',
-                            'Canopy And Standee' => 'Canopy And Standee',
-                            'Reception And Office Signage' => 'Reception And Office Signage',
-                            'UV LED Printing' => 'UV LED Printing',
-                            '3D Brass Letter Sign Board' => '3D Brass Letter Sign Board',
-                            'ACP SignBoard' => 'ACP SignBoard',
-                            'Frosted Vinyl' => 'Frosted Vinyl',
-                            'Corporate Gifts' => 'Corporate Gifts',
-                            'Rollup Standees' => 'Rollup Standees',
-                            'Commercial Signage' => 'Commercial Signage',
-                            'Flanges And Lollipop' => 'Flanges|lollipop',
-                            'Indoor Graphics' => 'Indoor Graphics',
-                            'Outdoor Graphic' => 'Outdoor Graphic',
-                            'TrimCap' => 'TrimCap',
-                            'Fire Safety Signage' => 'Fire Safety Signage',
-                            ];
+                                $services = [
+                                    'Flex Printing' => 'Flex Printing',
+                                    'LED Signage' => 'LED Signage',
+                                    '3D Acrylic Letter Sign Board' => '3D Acrylic Letter Sign Board',
+                                    'Hoarding Unipole' => 'Hoarding Unipole',
+                                    'Glow Sign Board' => 'Glow Sign Board',
+                                    'Vinyl Printing' => 'Vinyl Printing',
+                                    'LED Crystal Signage' => 'LED Crystal Signage',
+                                    'ACP CLADDING WORK' => 'ACP CLADDING WORK',
+                                    '3D Steel Letter Sign Board' => '3D Steel Letter Sign Board',
+                                    'Acrylic Display' => 'Acrylic Display',
+                                    'Directional Sign Board' => 'Directional Sign Board',
+                                    'Canopy And Standee' => 'Canopy And Standee',
+                                    'Reception And Office Signage' => 'Reception And Office Signage',
+                                    'UV LED Printing' => 'UV LED Printing',
+                                    '3D Brass Letter Sign Board' => '3D Brass Letter Sign Board',
+                                    'ACP SignBoard' => 'ACP SignBoard',
+                                    'Frosted Vinyl' => 'Frosted Vinyl',
+                                    'Corporate Gifts' => 'Corporate Gifts',
+                                    'Rollup Standees' => 'Rollup Standees',
+                                    'Commercial Signage' => 'Commercial Signage',
+                                    'Flanges And Lollipop' => 'Flanges|lollipop',
+                                    'Indoor Graphics' => 'Indoor Graphics',
+                                    'Outdoor Graphic' => 'Outdoor Graphic',
+                                    'TrimCap' => 'TrimCap',
+                                    'Fire Safety Signage' => 'Fire Safety Signage',
+                                ];
                             @endphp
 
                             <ul>
                                 @foreach ($services as $key => $value)
-                                <li class="{{ request()->is('services/' . str_replace(' ', '-', $key)) ? 'current' : '' }}">
-                                    <a href="{{ route('services.show', str_replace(' ', '-', $key)) }}">{{ $value }}</a>
-                                </li>
+                                    <li class="{{ request()->is('services/' . str_replace(' ', '-', $key)) ? 'current' : '' }}">
+                                        <a href="{{ route('services.show', str_replace(' ', '-', $key)) }}">
+                                            {{ $value }}
+                                        </a>
+                                    </li>
                                 @endforeach
                             </ul>
-
-
                         </li>
 
-
-                        {{-- <li class="{{ Request::is('portfolio') ? 'current' : '' }}"><a href="{{ url('/portfolio') }}">Gallery</a></li>
-                        <li class="{{ Request::is('blog') ? 'current' : '' }}"><a href="{{ url('/blog') }}">Blog</a>
-                        </li> --}}
-
-                        <li class="{{ Request::is('contact') ? 'current' : '' }}"><a href="{{ url('/contact') }}">Contact</a></li>
-
+                        <li class="{{ Request::is('contact') ? 'current' : '' }}">
+                            <a href="{{ url('/contact') }}">Contact</a>
+                        </li>
                     </ul>
                 </nav>
 
@@ -127,34 +126,39 @@
                         <button class="ui-btn ui-btn search-btn">
                             <span class="icon fa fa-search"></span>
                         </button>
-
                     </div>
                     <a class="info-btn" href="tel:+919944200793">
                         <i class="icon fa fa-phone"></i>
-                        <small>Call Our Team</small><br> +91 9944200793
+                        <small>Call Our Team</small><br>+91 9944200793
                     </a>
-
-                    <a href="{{ url('/contact') }}" class="theme-btn btn-style-one"><span class="btn-title">get
-                            solution</span></a>
-
-                    <div class="mobile-nav-toggler"><span class="icon fa fa-bars"></span></div>
+                    <a href="{{ url('/contact') }}" class="theme-btn btn-style-one">
+                        <span class="btn-title">Get Solution</span>
+                    </a>
+                    <div class="mobile-nav-toggler">
+                        <span class="icon fa fa-bars"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
+
     <div class="mobile-menu">
         <div class="menu-backdrop"></div>
-
         <nav class="menu-box">
-
-            <ul class="navigation clearfix">
-
-            </ul>
-
-
-
+            <div class="upper-box">
+                <div class="logo">
+                    <a href="{{ route('/') }}">
+                        <img src="{{ asset('frontend/assets/images/Logo/AJSGroups_mobile.png') }}" alt="AJS Groups" 
+                            title="AJS Groups">
+                    </a>
+                </div>
+                <div class="close-btn">
+                    <i class="icon fa fa-times"></i>
+                </div>
+            </div>
+            <ul class="navigation clearfix"></ul>
         </nav>
     </div>
 
