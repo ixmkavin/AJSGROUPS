@@ -239,3 +239,50 @@
 </footer>
 
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+
+<ul id="footer-social-links">
+    <li>
+        <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
+            <i class="fab fa-twitter"></i>
+            <span class="sr-only">Join us on Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.facebook.com/ajsadz23?mibextid=ZbWKwL" rel="nofollow" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+            <span class="sr-only">Join us on Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://in.pinterest.com/AJSGroups22/" rel="nofollow" target="_blank">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="sr-only">Join us on Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/ajsadz23?igsh=dmhqeHd1YXlzaWty" rel="nofollow" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span class="sr-only">Join us on Instagram</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/company/ajsadz23/" rel="nofollow" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            <span class="sr-only">Join us on LinkedIn</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://youtube.com/@ajsadz23?si=ubJdiyVg7SqvgAkj" rel="nofollow" target="_blank">
+            <i class="fab fa-youtube"></i>
+            <span class="sr-only">Join us on YouTube</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://wa.me/your-whatsapp-number" rel="nofollow" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span class="sr-only">Chat with us on WhatsApp</span>
+        </a>
+    </li>
+</ul>
+

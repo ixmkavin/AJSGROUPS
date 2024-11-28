@@ -539,7 +539,7 @@ li {
 
 .scroll-to-top {
     position: fixed;
-    right: 20px;
+    right: 15px;
     bottom: 20px;
     width: 40px;
     font-size: 16px;
@@ -548,7 +548,7 @@ li {
     text-align: center;
     cursor: pointer;
     background-color: var(--theme-color2);
-    z-index: 100;
+    z-index: 1000000;
     display: none;
     border-radius: 50%;
     margin: 0 auto;
@@ -2005,6 +2005,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     font-weight: 700;
 }
 
+
+
 /* dropdown */
 .main-menu .navigation>li.dropdown>ul {
     display: grid;
@@ -2724,6 +2726,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     display: block;
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
 }
 
 .mobile-menu .navigation li {
@@ -2792,6 +2795,17 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 .mobile-menu .navigation li>ul>li {
     padding-left: 20px;
 }
+.mobile-menu .navigation li.dropdown ul {
+    max-height: 315px; 
+    overflow-y: auto;
+    display: block;
+    padding-left: 10px; 
+    background: var(--bg-theme-color1); 
+}
+
+.mobile-menu .navigation li.dropdown ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
 
 .contact-list-one {
     position: relative;
@@ -2839,7 +2853,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .mobile-menu .social-links {
-    position: relative;
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2852,7 +2866,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     background: var(--bg-theme-color1);
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    margin-top: auto;
+ 
 }
 
 .mobile-menu .social-links li {
@@ -16173,4 +16187,121 @@ img {
 .service-image {
     position: relative;
     margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+    #footer-social-links {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #fff; /* Optional: Background color for the bar */
+        padding: 10px 0;
+        z-index: 9999;
+        border-top: 1px solid #ddd; /* Optional: Add a border for separation */
+        animation: slideInUp 1s ease-out; /* Entrance animation */
+    }
+
+    #footer-social-links li {
+        margin: 0 10px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        animation: bounceIn 0.8s ease-in-out; /* Bounce effect */
+    }
+
+    /* Vertical line between icons */
+    #footer-social-links li:not(:first-child)::before {
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background-color: #ddd; /* Line color */
+        height: 60%; /* Adjust height to make the line smaller */
+        margin: auto;
+    }
+
+    #footer-social-links a {
+        font-size: 24px; /* Icon size */
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+    }
+
+    /* Icon hover effect */
+    #footer-social-links a:hover {
+        transform: scale(1.3); /* Zoom in effect */
+        color: #ff9800; /* Optional: Change color on hover */
+    }
+
+    /* Individual brand colors */
+    #footer-social-links a .fa-twitter {
+        color: #1DA1F2; /* Twitter blue */
+    }
+
+    #footer-social-links a .fa-facebook-square {
+        color: #1877F2; /* Facebook blue */
+    }
+
+    #footer-social-links a .fa-pinterest-p {
+        color: #E60023; /* Pinterest red */
+    }
+
+    #footer-social-links a .fa-instagram {
+        color: #C13584; /* Instagram gradient main color */
+    }
+
+    #footer-social-links a .fa-linkedin {
+        color: #0077B5; /* LinkedIn blue */
+    }
+
+    #footer-social-links a .fa-youtube {
+        color: #FF0000; /* YouTube red */
+    }
+
+    #footer-social-links a .fa-whatsapp {
+        color: #25D366; /* WhatsApp green */
+    }
+
+    /* Keyframes for animations */
+    @keyframes slideInUp {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes bounceIn {
+        0% {
+            transform: scale(0.5);
+            opacity: 0.5;
+        }
+        70% {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    body {
+        padding-bottom: 45px; /* Adjust this to match the height of #footer-social-links */
+    }
+}
+
+@media (min-width: 769px) {
+    #footer-social-links {
+        display: none; /* Hide the footer-social-links on larger screens */
+    }
 }

@@ -123,6 +123,7 @@
 
                         <li class="{{ Request::is('contact') ? 'current' : '' }}"><a
                                 href="{{ url('/contact') }}">Contact</a></li>
+                                
                     </ul>
                 </nav>
 
@@ -152,17 +153,11 @@
         <div class="menu-backdrop"></div>
 
         <nav class="menu-box">
-            <div class="upper-box">
-                <div class="logo"><a href="{{ route('/') }}"><img
-                            src="{{ asset('frontend/assets/images/Logo/AJSGroups_mobile.png') }}" alt="AJS Groups"
-                            title="AJS Groups"></a>
-                </div>
-                <div class="close-btn"><i class="icon fa fa-times"></i></div>
-            </div>
+       
             <ul class="navigation clearfix">
 
             </ul>
-            <ul class="contact-list-one">
+            {{-- <ul class="contact-list-one">
                 <li>
 
                     <div class="contact-info-box">
@@ -187,7 +182,7 @@
                         Mon - Sat 10:00 AM - 8:00 PM, Sunday - CLOSED
                     </div>
                 </li>
-            </ul>
+            </ul> --}}
             <ul class="social-links">
                 <li>
                     <a href="https://x.com/AJSGroups" rel="nofollow" target="_blank">
@@ -227,6 +222,7 @@
                 </li>
 
             </ul>
+       
         </nav>
     </div>
 
