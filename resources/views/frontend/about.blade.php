@@ -32,7 +32,7 @@ $baseKeywords = ' ';
 </section>
 
 
-<section class="marquee-section mt-5">
+<section class="marquee-section mt-3">
     <div class="inner-container">
         <div class="marquee">
             <div class="marquee-block">

@@ -23,7 +23,7 @@
 
     <section class="bg-section">
         <video autoplay muted loop playsinline class="bg-video">
-            <source src="{{ asset('frontend/assets/images/Comp1.mp4') }}" type="video/mp4">
+            <source class="bg-video" src="{{ asset('frontend/assets/images/Comp1.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </section>

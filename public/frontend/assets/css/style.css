@@ -588,10 +588,37 @@ li {
 
 .list-style-one li i {
     margin-right: 10px;
-    color: var(--theme-color2);
+    color: initial;
     font-size: 14px;
     line-height: 20px;
 }
+.list-style-one li i {
+    margin-right: 8px; 
+    font-size: 18px; 
+    color: #000; 
+}
+
+.list-style-one li i.fa-envelope {
+    color: #D44638; 
+    font-size: 15px;
+    background-color: #fff;
+    border: 2px solid #D44638; 
+    border-radius: 5px; 
+    padding: 0px 3px 0px 3px;
+    display: inline-block;
+}
+
+
+.list-style-one li i.fa-map-marker {
+    color: #EA4335; 
+    font-size: 15px; 
+    background-color: #fff; 
+    border: 2px solid #EA4335; 
+    border-radius: 5px; 
+    padding: 0px 3px 0px 3px;
+    display: inline-block; 
+}
+
 
 .list-style-one li a {
     display: inline-block;
@@ -2349,6 +2376,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     top: 50%;
     width: 44px;
 }
+
 
 .main-header .info-btn:hover {
     color: var(--bg-theme-color2);
@@ -16244,7 +16272,7 @@ img {
 
 @media (max-width: 768px) {
     .marquee-section .brand-thumb img {
-        width: 50px;
+        width: 60px;
         height: auto;
         object-fit: contain;
     }
@@ -16382,3 +16410,7 @@ img {
         display: none; 
     }
 }
+
+.fa-envelope {
+    color: black;
+  }
