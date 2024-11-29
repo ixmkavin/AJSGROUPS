@@ -2870,16 +2870,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .mobile-menu .navigation {
     font-family: 'Arial', sans-serif; 
-    background: #313131ef;
     overflow: hidden; 
 }
 
-.navigation li.dropdown ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    background: #1e1e1e; 
-}
 
 .contact-list-one {
     position: relative;

@@ -906,11 +906,6 @@ var THEMEMASCOT = {};
         });
     });
 
-//     document.querySelectorAll('.navigation li.dropdown ul li > a').forEach((link) => {
-//     link.innerHTML = '> ' + link.innerHTML;
-// });
-
-
     document.addEventListener("scroll", function () {
         const parallax = document.querySelector(".service-overlay img");
         const scrollPosition = window.pageYOffset;
