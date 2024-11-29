@@ -31,7 +31,7 @@
 
 
 
-<section class="marquee-section mt-5">
+<section class="marquee-section mt-2">
     <div class="inner-container">
         <div class="marquee">
             <div class="marquee-block">

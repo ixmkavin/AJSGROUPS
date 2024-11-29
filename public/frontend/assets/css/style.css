@@ -16242,10 +16242,26 @@ img {
     object-fit: contain;
 }
 
-.marquee-section .brand-thumb {
-    margin-right: 40px;
+@media (max-width: 768px) {
+    .marquee-section .brand-thumb img {
+        width: 50px;
+        height: auto;
+        object-fit: contain;
+    }
 
+    .marquee-section .brand-thumb {
+        margin-right: 0px;
+    
+    }    
 }
+@media (min-width: 769px) {
+    .marquee-section .brand-thumb {
+        margin-right: 40px;
+    
+    }
+    
+}
+
 
 .marquee-section .brand-thumb:last-child {
     margin-right: 0;
