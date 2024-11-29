@@ -2,7 +2,7 @@
 
 @php
     $baseTitle = 'UV LED Printing & Backlit Boards | Vibrant, Durable Sign Solutions';
-    $baseDescription = ' AJS Business and IT Solutions offers UV LED printing solutions, including UV backlight boards, UV light boards, and UV LED boards, providing bright colors ';
+    $baseDescription = 'AJSGroups offers UV LED printing solutions, including UV backlight boards, UV light boards, and UV LED boards, providing bright colors ';
     $baseKeywords = ' UV LED printing ';
 @endphp
 

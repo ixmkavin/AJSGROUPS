@@ -2,7 +2,7 @@
 
 @php
     $baseTitle = '3D Acrylic Signboard Solutions in India|For Business Visibility';
-    $baseDescription = ' AJS Business and IT Solutions offers high-quality 3D acrylic signboards in various colors, sizes, and styles, perfect for showcasing your business at great prices';
+    $baseDescription = ' AJSGroups offers high-quality 3D acrylic signboards in various colors, sizes, and styles, perfect for showcasing your business at great prices';
     $baseKeywords = '  ';
 @endphp
 

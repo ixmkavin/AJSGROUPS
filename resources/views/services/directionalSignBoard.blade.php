@@ -2,7 +2,7 @@
 
 @php
     $baseTitle = 'Directional Sign Boards in india | Wayfinding Signage Solutions';
-    $baseDescription = ' AJS Business and IT Solutions  knows that clear navigation is essential and offers a range of directional sign boards, including freestanding and overhead signs.';
+    $baseDescription = 'AJSGroups knows that clear navigation is essential and offers a range of directional sign boards, including freestanding and overhead signs.';
     $baseKeywords = ' Directional sign board ';
 @endphp
 
